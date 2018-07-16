@@ -26,7 +26,7 @@ pipeline {
         }
       }
       steps {
-        echo 'Continuing with deployment'
+        echo "Deploying ${APP_VERSION}."
       }
     }
   }
